@@ -50,3 +50,5 @@ GOOS=js GOARCH=wasm go build -o main.wasm ./main.go
 if run in wasm_js go uses fetch as the implementation of http.client
 
 the behavior of the fetch Api is different with the behavior of the go http.client, fetch will automatically unzip but not delete the 'content-encoding' header.
+
+https://github.com/golang/go/blob/ace1494d9235be94f1325ab6e45105a446b3224c/src/net/http/roundtrip_js.go#L128
