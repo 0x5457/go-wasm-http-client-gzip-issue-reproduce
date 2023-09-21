@@ -1,5 +1,5 @@
 # go-wasm-http-client-gzip-issue-reproduce
-The behavior of go client is somewhat inconsistent between wasm run and native run.
+The behavior of go client is inconsistent between wasm run and native run.
 
 ```
 go version go1.21.0 darwin/arm64
