@@ -27,7 +27,7 @@ go run main.go
 # go source: https://github.com/golang/go/blob/ace1494d9235be94f1325ab6e45105a446b3224c/src/net/http/transport.go#L2245
 ```
 
-#### 2. compile into wasm and run it in a browser
+#### 2. compile into wasm and run it in browser
 ```sh
 # 1. compile
 GOOS=js GOARCH=wasm go build -o main.wasm ./main.go
