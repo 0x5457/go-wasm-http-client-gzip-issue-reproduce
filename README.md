@@ -32,8 +32,8 @@ go run main.go
 # 1. compile
 GOOS=js GOARCH=wasm go build -o main.wasm ./main.go
 # 2. open browser. go to http://localhost:8080
-# 3 click "run" button on the page
-# 3. open browser devtools to check console outputs
+# 3. click "run" button on the page
+# 4. open browser devtools to check console outputs
 
 
 # output
