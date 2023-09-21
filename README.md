@@ -23,7 +23,7 @@ go run main.go
 # ContentLength: -1
 # body: [104 101 108 108 111 44 32 119 111 114 108 100]
 
-# response body has been unzipped and header['Content Encoding'] removed
+# response body has been unzipped and header['Content-Encoding'] removed
 # go source: https://github.com/golang/go/blob/ace1494d9235be94f1325ab6e45105a446b3224c/src/net/http/transport.go#L2245
 ```
 
