@@ -42,7 +42,7 @@ GOOS=js GOARCH=wasm go build -o main.wasm ./main.go
 # ContentLength: 36
 # body: [104 101 108 108 111 44 32 119 111 114 108 100]
 
-# response body has been unzipped and header['Content Encoding'] has not been deleted
+# response body has been unzipped and header['Content-Encoding'] has not been deleted
 ```
 
 
