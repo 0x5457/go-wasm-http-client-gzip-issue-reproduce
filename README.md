@@ -13,7 +13,7 @@ go run server/main.go
 ```
 
 ### step 2
-> in main.go. requests /gzip api, and print content-encoding.
+> in ./main.go. requests /gzip api, and print content-encoding.
 #### 1. native go run
 ```sh
 go run main.go
